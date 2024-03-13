@@ -101,7 +101,7 @@ python [training-script] \
 ```
 
 + Replace `[training-script]` with name of finetuning script (options: `train_classification.py` - for classification; `train_detection.py` - for object detection; `train_segmentation.py` - for semantic segmentation; `train_depth.py` - for monocular depth estimation).
-+ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit-b` - for ViT-B).
++ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit_b` - for ViT-B).
 + Replace `[pretraining]` with general pretraining methodology (options: `Hyperkvasir` - for models pretrained in a self-supervised manner with Hyperkvasir; `ImageNet_self` - for models pretrained in a self-supervised manner with ImageNet-1k; `ImageNet_class` - for models pretrained in a supervised manner with ImageNet-1k; `random` - for models not pretrained at all).
 + For models pretrained in a self-supervised manner, replace `[ss-framework]` with pretraining algorithm (options: `mocov3` - for MoCo v3; `barlowtwins` - for Barlow Twins; `mae` - for MAE).
 + For models pretrained in a self-supervised manner, replace `[checkpoint]` with path to pretrained weights.
@@ -152,7 +152,7 @@ python [evaluation-script] \
 ```
 
 + Replace `[evaluation-script]` with name of evaluation script (options: `eval_classification.py` - for classification; `eval_detection.py` - for object detection; `eval_segmentation.py` - for semantic segmentation; `eval_depth.py` - for monocular depth estimation).
-+ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit-b` - for ViT-B).
++ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit_b` - for ViT-B).
 + Replace `[pretraining]` with general pretraining methodology (options: `Hyperkvasir` - for models pretrained in a self-supervised manner with Hyperkvasir; `ImageNet_self` - for models pretrained in a self-supervised manner with ImageNet-1k; `ImageNet_class` - for models pretrained in a supervised manner with ImageNet-1k; `random` - for models not pretrained at all).
 + For models pretrained in a self-supervised manner, replace `[ss-framework]` with pretraining algorithm (options: `mocov3` - for MoCo v3; `barlowtwins` - for Barlow Twins; `mae` - for MAE).
 + Replace `[dataset]` with name of dataset (options: `Hyperkvasir_anatomical` - for Hyperkvasir-anatomical; `Hyperkvasir_pathological` - for Hyperkvasir-pathological; `Kvasir` - for Kvasir-SEG; `CVC` - for CVC-ClinicDB, `C3VD` - for C3VD).
@@ -193,7 +193,7 @@ python [prediction-script] \
 ```
 
 + Replace `[prediction-script]` with name of prediction script (options: `predict_detection.py` - for object detection; `predict_segmentation.py` - for semantic segmentation; `predict_depth.py` - for monocular depth estimation).
-+ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit-b` - for ViT-B).
++ Replace `[architecture]` with name of architecture (options: `resnet50` - for ResNet50; `vit_b` - for ViT-B).
 + Replace `[pretraining]` with general pretraining methodology (options: `Hyperkvasir` - for models pretrained in a self-supervised manner with Hyperkvasir; `ImageNet_self` - for models pretrained in a self-supervised manner with ImageNet-1k; `ImageNet_class` - for models pretrained in a supervised manner with ImageNet-1k; `random` - for models not pretrained at all).
 + For models pretrained in a self-supervised manner, replace `[ss-framework]` with pretraining algorithm (options: `mocov3` - for MoCo v3; `barlowtwins` - for Barlow Twins; `mae` - for MAE).
 + Replace `[dataset]` with name of dataset (options: `Kvasir` - for Kvasir-SEG; `CVC` - for CVC-ClinicDB, `C3VD` - for C3VD).
