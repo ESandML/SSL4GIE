@@ -80,7 +80,6 @@ def train_epoch(
             scaler.update()
             optimizer.zero_grad()
 
-            #
             if rank == 0:
                 if (batch_idx + 1) // accum_iter < len(train_loader) // accum_iter:
                     print(
@@ -148,7 +147,6 @@ def test(model, rank, test_loader, epoch, log_path, metric):
             with open(log_path, "a") as f:
                 f.write(printout)
                 f.write("\n")
-        # t_=time.time()
     metric.reset()
     return metric_dict["map"]
 
@@ -439,7 +437,7 @@ def get_args():
     )
     parser.add_argument("--checkpoint", type=str, dest="ckpt")
     parser.add_argument("--frozen", action="store_true", default=False)
-    parser.add_argument("--dataset", type=str, required=True, choices=["Kvasir", "CVC"])
+    parser.add_argument("--dataset", type=str, required=True, choices=["Kvasir"])
     parser.add_argument("--data-root", type=str, required=True, dest="root")
     parser.add_argument("--epochs", type=int, default=200)
     parser.add_argument("--batch-size", type=int, default=16)
