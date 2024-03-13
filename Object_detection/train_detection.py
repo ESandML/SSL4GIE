@@ -186,7 +186,7 @@ def build(args, rank):
         input_paths,
         targets,
         get_target_vals_fn,
-        batch_size // args.world_size // args.accum_iter,
+        args.batch_size // args.world_size // args.accum_iter,
         args.arch,
         1024,
     )
