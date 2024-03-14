@@ -228,9 +228,10 @@ We allow commerical use of this work, as permitted by the [LICENSE](https://gith
 
 This work was supported by the Science and Technology Facilities Council [grant number ST/S005404/1].
 
-This work makes use of the [Hyperkvasir-unlabelled](https://datasets.simula.no/hyper-kvasir/), [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/), [CVC-ClinicDB](https://polyp.grand-challenge.org/CVCClinicDB/), and [C3VD](https://durrlab.github.io/C3VD/) datasets.
-
-This work makes use of the [MoCo v3](https://github.com/facebookresearch/moco-v3), [Barlow Twins](https://github.com/facebookresearch/barlowtwins), and [MAE](https://github.com/facebookresearch/mae) codebases.
+This work makes use of:
++ The [Hyperkvasir-unlabelled](https://datasets.simula.no/hyper-kvasir/), [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/), [CVC-ClinicDB](https://polyp.grand-challenge.org/CVCClinicDB/), and [C3VD](https://durrlab.github.io/C3VD/) datasets.
++ The [MoCo v3](https://github.com/facebookresearch/moco-v3), [Barlow Twins](https://github.com/facebookresearch/barlowtwins), and [MAE](https://github.com/facebookresearch/mae) codebases. In addition to using these codebases for pretraining, as well as the weights provided, we also include code (`SSL4GIE/Models/vits.py`) from [MoCo v3](https://github.com/facebookresearch/moco-v3) and code (`SSL4GIE/Models/models_mae.py` and `SSL4GIE/util/pos_embed.py`) from [MAE](https://github.com/facebookresearch/mae), with modifications made for version compatibility.
++ Code snippets from [DPT](https://github.com/isl-org/DPT) and [dvdhfnr](https://gist.github.com/dvdhfnr/732c26b61a0e63a0abc8a5d769dbebd0).
 
 
 
