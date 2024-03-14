@@ -128,14 +128,13 @@ class ScaleAndShiftInvariantLoss(nn.Module):
         self.__prediction_ssi = None
 
     def forward(self, prediction, target):
-        # preprocessing
         prediction = prediction.squeeze(1)
         target = target.squeeze(1)
         mask = target > 0
 
-        # calcul
+
         scale, shift = compute_scale_and_shift(prediction, target, mask)
-        # print(scale, shift)
+
         self.__prediction_ssi = scale.view(-1, 1, 1) * prediction + shift.view(-1, 1, 1)
 
         total = self.__data_loss(self.__prediction_ssi, target, mask)
