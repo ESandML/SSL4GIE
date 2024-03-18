@@ -205,7 +205,7 @@ Please also note that the argument `--idx [idx]` can be included to specify the 
 
 ## 4. License
 
-This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/ESandML/FCBFormer/blob/main/LICENSE) file.
+This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/ESandML/SSL4GIE/blob/main/LICENSE) file.
 
 ## 5. Citation
 
@@ -222,7 +222,7 @@ If you use this work, please consider citing us:
 
 ## 6. Commercial use
 
-We allow commerical use of this work, as permitted by the [LICENSE](https://github.com/ESandML/FCBFormer/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
+We allow commerical use of this work, as permitted by the [LICENSE](https://github.com/ESandML/SSL4GIE/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
 
 ## 7. Acknowledgements
 
