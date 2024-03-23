@@ -1,0 +1,6 @@
+[submodule "mae"]
+	path = mae
+	url = https://github.com/facebookresearch/mae.git
+[submodule "moco-v3"]
+	path = moco-v3
+	url = https://github.com/facebookresearch/moco-v3.git

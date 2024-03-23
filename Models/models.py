@@ -7,7 +7,8 @@ from collections import OrderedDict
 from timm.models.vision_transformer import VisionTransformer
 from timm.models.hub import download_cached_file
 
-from . import models_mae, vits
+from .moco_v3 import vits
+from .mae import models_mae
 
 from .DPT_decoder import DPT_decoder
 
