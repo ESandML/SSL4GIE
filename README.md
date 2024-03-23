@@ -117,7 +117,7 @@ For all finetuning scripts, there is also the option to include/exclude the argu
 + `--epochs [epochs]` - to set the number of epochs as desired (replace `[epochs]`). We did not use this in our experiments.
 + `--learning-rate-scheduler` - to use a learning rate scheduler that halves the learning rate when the performance on the validation set does not improve for 10 epochs. We did use this in our experiments.
 
-Please also note that, when using MoCo v3 or MAE, we use code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
+Please also note that, when using MoCo v3 or MAE, code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories is used, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
 
 ### 3.3 Evaluation
 
@@ -164,7 +164,7 @@ In addition to printing the results of the evaluation in the output space, the r
 
 Please note that the argument `--print-list` can be used when evaluating models for semantic segmentation or monocular depth estimation to print the result (Dice score for semantic segmentation and RMSE for monocular depth estimation) for each individual image, to allow for analysis of the distribution over the test set.
 
-Please also note that, when using MoCo v3 or MAE, we use code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
+Please also note that, when using MoCo v3 or MAE, code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories is used, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
 
 ### 3.4 Prediction
 
@@ -207,11 +207,11 @@ The paths for the images of the dataset that predictions are being made for will
 
 Please note that the argument `--idx [idx]` can be included to specify the indexes of the test set you wish to make and save visualisations of predictions for, where `[idx]` is a comma separated list of the indexes (no spaces). For example, for making and saving visualisations of predictions on just the 11th and 486th examples of the test set, use `--idx 11,468`.
 
-Please also note that, when using MoCo v3 or MAE, we use code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
+Please also note that, when using MoCo v3 or MAE, code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories is used, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
 
 ## 4. License
 
-This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/ESandML/SSL4GIE/blob/main/LICENSE) file. Please however note that when using MoCo v3 or MAE, we use code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories, which are both released under CC BY-NC 4.0 licenses, and any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
+This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/ESandML/SSL4GIE/blob/main/LICENSE) file. Please however note that when using MoCo v3 or MAE, code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories is used, which are both released under CC BY-NC 4.0 licenses, and any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
 
 ## 5. Citation
 
@@ -230,7 +230,7 @@ If you use this work, please consider citing us:
 
 We allow commerical use of this work, as permitted by the [LICENSE](https://github.com/ESandML/SSL4GIE/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
 
-Please note however that, when using MoCo v3 or MAE, we use code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
+Please note however that, when using MoCo v3 or MAE, code from the [MoCo v3](https://github.com/facebookresearch/moco-v3) or [MAE](https://github.com/facebookresearch/mae) repositories is used, which are both released under CC BY-NC 4.0 licenses. Any results from such runs are therefore covered by a CC BY-NC 4.0 license. Additionally, any results from the use of C3VD are covered by a CC BY-NC-SA 4.0 license.
 
 ## 7. Acknowledgements
 
