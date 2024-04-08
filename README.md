@@ -4,6 +4,7 @@ Official code repository for: A Study on Self-Supervised Pretraining for Vision 
 Authors: [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao) and [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
 
 Links to the paper:
++ [IEEE Access (open access)](https://ieeexplore.ieee.org/document/10478725)
 + [arXiv](https://arxiv.org/abs/2401.06278)
 
 ## 1. Abstract
