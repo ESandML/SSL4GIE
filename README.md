@@ -220,10 +220,14 @@ If you use this work, please consider citing us:
 
 ```bibtex
 @article{sanderson2024study,
-  title={A Study on Self-Supervised Pretraining for Vision Problems in Gastrointestinal Endoscopy},
-  author={Sanderson, Edward and Matuszewski, Bogdan J},
-  journal={arXiv preprint arXiv:2401.06278},
-  year={2024}
+  title={A Study on Self-Supervised Pretraining for Vision Problems in Gastrointestinal Endoscopy}, 
+  author={Sanderson, Edward and Matuszewski, Bogdan J.},
+  journal={IEEE Access}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={46181-46201},
+  doi={10.1109/ACCESS.2024.3381517}
 }
 ```
 
